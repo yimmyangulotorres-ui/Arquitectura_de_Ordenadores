@@ -1,0 +1,7 @@
+v 4
+file / "c:\Users\HP\Downloads\Trabajos_VHDL\multiplexor\tb_multi.vhd" "05be628b9928c9165920a4e1144b796eae6766dd" "20261018013820.588":
+  entity tb_mux_4to1 at 3( 38) + 0 on 21;
+  architecture sim of tb_mux_4to1 at 10( 155) + 0 on 22;
+file / "c:\Users\HP\Downloads\Trabajos_VHDL\multiplexor\multi_gate.vhd" "92cff19abb6bf0bce7a39b8b3ed41fd7f18490fa" "20261018013731.711":
+  entity mux_4to1 at 2( 26) + 0 on 19;
+  architecture behavioral of mux_4to1 at 11( 236) + 0 on 20;

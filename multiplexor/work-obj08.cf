@@ -1,0 +1,7 @@
+v 4
+file . "tb_multi.vhd" "05be628b9928c9165920a4e1144b796eae6766dd" "20261018014057.018":
+  entity tb_mux_4to1 at 3( 38) + 0 on 13;
+  architecture sim of tb_mux_4to1 at 10( 155) + 0 on 14;
+file . "multi_gate.vhd" "92cff19abb6bf0bce7a39b8b3ed41fd7f18490fa" "20261018014057.014":
+  entity mux_4to1 at 2( 26) + 0 on 11;
+  architecture behavioral of mux_4to1 at 11( 236) + 0 on 12;
