@@ -1,0 +1,7 @@
+v 4
+file . "tb_bcd.vhd" "1fb4d69275030ffbeca02cb07459e7f5241dfe54" "20261018152933.333":
+  entity tb_bcd_7seg at 2( 2) + 0 on 13;
+  architecture sim of tb_bcd_7seg at 9( 119) + 0 on 14;
+file . "bcd_7seg.vhd" "a2cfe61f8c03856088bdba68ef320d37a00e3688" "20261018152933.328":
+  entity bcd_7seg at 2( 58) + 0 on 11;
+  architecture behavioral of bcd_7seg at 10( 247) + 0 on 12;
