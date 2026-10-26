@@ -1,0 +1,7 @@
+v 4
+file . "tb_xor.vhd" "c067c31dd410bccf09b16fc9db83aaac1473fd44" "20261022155621.415":
+  entity tb_xor at 1( 0) + 0 on 13;
+  architecture sim of tb_xor at 7( 80) + 0 on 14;
+file . "xor_gate.vhd" "11d155e56c86afbfbe25179a685e59d2d1ffa6cb" "20261022155621.415":
+  entity xor_gate at 1( 0) + 0 on 11;
+  architecture behavioral of xor_gate at 12( 186) + 0 on 12;
