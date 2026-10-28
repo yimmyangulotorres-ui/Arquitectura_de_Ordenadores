@@ -1,0 +1,7 @@
+v 4
+file . "tb_shift_reg_4bit.vhd" "e32b4a89eda74299f61fa18685bc0265cdf64ac7" "20261028162516.199":
+  entity tb_shift_reg_4bit at 1( 0) + 0 on 13;
+  architecture sim of tb_shift_reg_4bit at 7( 102) + 0 on 14;
+file . "shift_reg_4bit.vhd" "eeb64daf643abb7c1b8d25e18c965fcd1504b6fd" "20261028162516.197":
+  entity shift_reg_4bit at 2( 44) + 0 on 11;
+  architecture behavioral of shift_reg_4bit at 12( 316) + 0 on 12;

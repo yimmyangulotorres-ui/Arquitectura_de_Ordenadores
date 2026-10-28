@@ -1,16 +1,19 @@
 v 4
-file . "tb_counter_00_59.vhd" "f3b2d5aaab11efb5e367c8a9d19037304384fdfc" "20261026133106.706":
-  entity tb_counter_00_59 at 1( 0) + 0 on 19;
-  architecture behavioral of tb_counter_00_59 at 7( 100) + 0 on 20;
-file . "bcd_7seg.vhd" "a2cfe61f8c03856088bdba68ef320d37a00e3688" "20261026133003.813":
-  entity bcd_7seg at 2( 58) + 0 on 15;
-  architecture behavioral of bcd_7seg at 10( 247) + 0 on 16;
-file . "counter_mod10.vhd" "54836dfe28f5e82b5c7c8acea328288d1dfdd7e6" "20261026132931.981":
-  entity counter_mod10 at 1( 0) + 0 on 11;
-  architecture behavioral of counter_mod10 at 13( 255) + 0 on 12;
-file . "counter_mod6.vhd" "7b0b72a3d4215203139e57ac2d48422a8af1d3a3" "20261026132939.223":
-  entity counter_mod6 at 1( 0) + 0 on 13;
-  architecture behavioral of counter_mod6 at 14( 285) + 0 on 14;
+file . "tb_counter_mod6.vhd" "40f319ba19b30e92e6c9437a0fcc7ab3cd43bdf2" "20261028215552.643":
+  entity tb_counter_mod6 at 1( 0) + 0 on 23;
+  architecture simulation of tb_counter_mod6 at 7( 98) + 0 on 24;
 file . "counter_00_59.vhd" "6ed8f4861865f0e466547cdf57cac97a09709cd8" "20261026133023.096":
   entity counter_00_59 at 2( 2) + 0 on 17;
   architecture structural of counter_00_59 at 14( 279) + 0 on 18;
+file . "counter_mod6.vhd" "7b0b72a3d4215203139e57ac2d48422a8af1d3a3" "20261028215552.642":
+  entity counter_mod6 at 1( 0) + 0 on 21;
+  architecture behavioral of counter_mod6 at 14( 285) + 0 on 22;
+file . "counter_mod10.vhd" "54836dfe28f5e82b5c7c8acea328288d1dfdd7e6" "20261026132931.981":
+  entity counter_mod10 at 1( 0) + 0 on 11;
+  architecture behavioral of counter_mod10 at 13( 255) + 0 on 12;
+file . "bcd_7seg.vhd" "a2cfe61f8c03856088bdba68ef320d37a00e3688" "20261026133003.813":
+  entity bcd_7seg at 2( 58) + 0 on 15;
+  architecture behavioral of bcd_7seg at 10( 247) + 0 on 16;
+file . "tb_counter_00_59.vhd" "f3b2d5aaab11efb5e367c8a9d19037304384fdfc" "20261026133106.706":
+  entity tb_counter_00_59 at 1( 0) + 0 on 19;
+  architecture behavioral of tb_counter_00_59 at 7( 100) + 0 on 20;
