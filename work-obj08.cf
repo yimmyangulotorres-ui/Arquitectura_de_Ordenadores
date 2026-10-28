@@ -1,65 +1,80 @@
 v 4
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\Proyecto_Final\counter_mod6.vhd" "7b0b72a3d4215203139e57ac2d48422a8af1d3a3" "20261026132443.043":
-  entity counter_mod6 at 1( 0) + 0 on 553;
-  architecture behavioral of counter_mod6 at 14( 285) + 0 on 554;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\Proyecto_Final\counter_mod10.vhd" "54836dfe28f5e82b5c7c8acea328288d1dfdd7e6" "20261026132440.809":
-  entity counter_mod10 at 1( 0) + 0 on 549;
-  architecture behavioral of counter_mod10 at 13( 255) + 0 on 550;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_4\Registro_de_Desplazamiento_4bits\tb_shift_reg_4bit.vhd" "e32b4a89eda74299f61fa18685bc0265cdf64ac7" "20261028152706.501":
+  entity tb_shift_reg_4bit at 1( 0) + 0 on 872;
+  architecture sim of tb_shift_reg_4bit at 7( 102) + 0 on 873;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_4\Contador_Sincrono_Modulo10\counter_mod10.vhd" "b72ed38383d6d936ba931a95c2e9eab5290ca9d1" "20261028152714.389":
+  entity counter_mod10 at 2( 40) + 0 on 876;
+  architecture behavioral of counter_mod10 at 12( 281) + 0 on 877;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\Proyecto_Final\tb_counter_00_59.vhd" "f3b2d5aaab11efb5e367c8a9d19037304384fdfc" "20261028151211.469":
+  entity tb_counter_00_59 at 1( 0) + 0 on 770;
+  architecture behavioral of tb_counter_00_59 at 7( 100) + 0 on 771;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_3\Contador+decodificador\tb_counter_display.vhd" "96aadd88144621a4e3f88e20965c72960ef4df63" "20261028151212.443":
+  entity tb_counter_display at 1( 0) + 0 on 794;
+  architecture sim of tb_counter_display at 7( 104) + 0 on 795;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\Proyecto_Final\counter_00_59.vhd" "6ed8f4861865f0e466547cdf57cac97a09709cd8" "20261028151211.763":
+  entity counter_00_59 at 2( 2) + 0 on 776;
+  architecture structural of counter_00_59 at 14( 279) + 0 on 777;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\nand\tb_nand.vhd" "f6f6d0e1ff9aa80866d960bdc63717603b567c3b" "20261028151213.691":
+  entity tb_nand at 1( 0) + 0 on 824;
+  architecture sim of tb_nand at 7( 82) + 0 on 825;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\or\tb_or.vhd" "2a21a7eb6f17ed0a3484f9a2373144c75fe0e352" "20261028151213.739":
+  entity tb_or at 1( 0) + 0 on 826;
+  architecture sim of tb_or at 7( 78) + 0 on 827;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\BCD_7_segmentos\tb_bcd.vhd" "1fb4d69275030ffbeca02cb07459e7f5241dfe54" "20261028152053.410":
+  entity tb_bcd_7seg at 2( 2) + 0 on 828;
+  architecture sim of tb_bcd_7seg at 9( 119) + 0 on 829;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\decoficador\decoder_3to8.vhd" "b278fe10bd2f5f2a569ef8815ec55a57f9bce818" "20261028152137.291":
+  entity decoder_3to8 at 2( 30) + 0 on 848;
+  architecture behavioral of decoder_3to8 at 12( 221) + 0 on 849;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\not\not_gate.vhd" "617174fe3608426e83fd74cd95c58a37720915b0" "20261028151212.824":
+  entity not_gate at 1( 0) + 0 on 804;
+  architecture behavioral of not_gate at 11( 159) + 0 on 805;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\or\or_gate.vhd" "0c28a955015199ce429dd7c6af3cd38c99c5bf1f" "20261028151212.934":
+  entity or_gate at 1( 0) + 0 on 806;
+  architecture behavioral of or_gate at 12( 185) + 0 on 807;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_3\Contador+decodificador\counter_display.vhd" "8c89c00a2768ec3abc6e69dc71bc2427e0ceea98" "20261028151212.383":
+  entity counter_display at 1( 0) + 0 on 792;
+  architecture behavioral of counter_display at 10( 218) + 0 on 793;
+file / "c:\Users\HP\Downloads\VHDL\lib\ghdl\src\ieee2008\std_logic_1164.vhdl" "7916134ed732ba36c91fe3327a3e59da32593a90" "20261028131916.309":
+  package std_logic_1164 at 54( 2655) + 0 on 679 body;
 file / "c:\Users\HP\Downloads\VHDL\lib\ghdl\src\ieee2008\numeric_std.vhdl" "1b825388feced75f599374fc3b8035019538bd4a" "20261026131755.364":
   package numeric_std at 65( 3452) + 0 on 532 body;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_2\BCD_7_segmentos\tb_bcd.vhd" "1fb4d69275030ffbeca02cb07459e7f5241dfe54" "20261026125436.489":
-  entity tb_bcd_7seg at 2( 2) + 0 on 466;
-  architecture sim of tb_bcd_7seg at 9( 119) + 0 on 467;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_2\decoficador\decoder_3to8.vhd" "b278fe10bd2f5f2a569ef8815ec55a57f9bce818" "20261026125436.426":
-  entity decoder_3to8 at 2( 30) + 0 on 464;
-  architecture behavioral of decoder_3to8 at 12( 221) + 0 on 465;
-file / "c:\Users\HP\Downloads\VHDL\lib\ghdl\src\ieee2008\std_logic_1164.vhdl" "7916134ed732ba36c91fe3327a3e59da32593a90" "20261018143819.434":
-  package std_logic_1164 at 54( 2655) + 0 on 135 body;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\xor\tb_xor.vhd" "c067c31dd410bccf09b16fc9db83aaac1473fd44" "20261026125437.081":
-  entity tb_xor at 1( 0) + 0 on 482;
-  architecture sim of tb_xor at 7( 80) + 0 on 483;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\not\tb_not.vhd" "e3680d62a5d92f1cf04b0dad1b8137018cdc1bff" "20261026125437.003":
-  entity tb_not at 1( 0) + 0 on 480;
-  architecture sim of tb_not at 7( 80) + 0 on 481;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\and\tb_and.vhd" "c23f030539384e960246e3ed7efd3c7c171b2c40" "20261026125437.153":
-  entity tb_and at 1( 0) + 0 on 484;
-  architecture sim of tb_and at 7( 80) + 0 on 485;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\or\or_gate.vhd" "0c28a955015199ce429dd7c6af3cd38c99c5bf1f" "20261026125436.702":
-  entity or_gate at 1( 0) + 0 on 472;
-  architecture behavioral of or_gate at 12( 185) + 0 on 473;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\nand\nand_gate.vhd" "3e1a952a754b901b01950ff4c4cb40bf3fc0d162" "20261026125436.122":
-  entity nand_gate at 1( 0) + 0 on 456;
-  architecture behavioral of nand_gate at 12( 188) + 0 on 457;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\and\and_gate.vhd" "37a8a8b49662b7cbf04369b53d23553ff3e74717" "20261026125436.873":
-  entity and_gate at 2( 2) + 0 on 476;
-  architecture behavioral of and_gate at 13( 189) + 0 on 477;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\not\not_gate.vhd" "617174fe3608426e83fd74cd95c58a37720915b0" "20261026125436.801":
-  entity not_gate at 1( 0) + 0 on 474;
-  architecture behavioral of not_gate at 11( 159) + 0 on 475;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\xor\xor_gate.vhd" "11d155e56c86afbfbe25179a685e59d2d1ffa6cb" "20261026125436.607":
-  entity xor_gate at 1( 0) + 0 on 470;
-  architecture behavioral of xor_gate at 12( 186) + 0 on 471;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\nand\tb_nand.vhd" "f6f6d0e1ff9aa80866d960bdc63717603b567c3b" "20261026125437.226":
-  entity tb_nand at 1( 0) + 0 on 486;
-  architecture sim of tb_nand at 7( 82) + 0 on 487;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_1\or\tb_or.vhd" "2a21a7eb6f17ed0a3484f9a2373144c75fe0e352" "20261026125436.935":
-  entity tb_or at 1( 0) + 0 on 478;
-  architecture sim of tb_or at 7( 78) + 0 on 479;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_2\decoficador\tb_decoder.vhd" "c3a355a98cdb9da4af76017045c2669fe2f47a56" "20261026125436.343":
-  entity tb_decoder_3to8 at 2( 40) + 0 on 462;
-  architecture sim of tb_decoder_3to8 at 9( 165) + 0 on 463;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_2\multiplexor\multi_gate.vhd" "92cff19abb6bf0bce7a39b8b3ed41fd7f18490fa" "20261026125436.249":
-  entity mux_4to1 at 2( 26) + 0 on 460;
-  architecture behavioral of mux_4to1 at 11( 236) + 0 on 461;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\APE1_Fase_2\multiplexor\tb_multi.vhd" "05be628b9928c9165920a4e1144b796eae6766dd" "20261026125436.177":
-  entity tb_mux_4to1 at 3( 38) + 0 on 458;
-  architecture sim of tb_mux_4to1 at 10( 155) + 0 on 459;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\Proyecto_Final\counter_00_59.vhd" "6ed8f4861865f0e466547cdf57cac97a09709cd8" "20261026132527.578":
-  entity counter_00_59 at 2( 2) + 0 on 559;
-  architecture structural of counter_00_59 at 14( 279) + 0 on 560;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\Proyecto_Final\tb_counter_00_59.vhd" "f3b2d5aaab11efb5e367c8a9d19037304384fdfc" "20261026132559.170":
-  entity tb_counter_00_59 at 1( 0) + 0 on 565;
-  architecture behavioral of tb_counter_00_59 at 7( 100) + 0 on 566;
-file / "c:\Users\HP\Downloads\Arquitectura_de_Ordenadores\Arquitectura_de_Ordenadores\Proyecto_Final\bcd_7seg.vhd" "a2cfe61f8c03856088bdba68ef320d37a00e3688" "20261026132744.927":
-  entity bcd_7seg at 2( 58) + 0 on 571;
-  architecture behavioral of bcd_7seg at 10( 247) + 0 on 572;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\Proyecto_Final\counter_mod6.vhd" "7b0b72a3d4215203139e57ac2d48422a8af1d3a3" "20261028151211.574":
+  entity counter_mod6 at 1( 0) + 0 on 772;
+  architecture behavioral of counter_mod6 at 14( 285) + 0 on 773;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\multiplexor\multi_gate.vhd" "92cff19abb6bf0bce7a39b8b3ed41fd7f18490fa" "20261028152202.863":
+  entity mux_4to1 at 2( 26) + 0 on 852;
+  architecture behavioral of mux_4to1 at 11( 236) + 0 on 853;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\xor\xor_gate.vhd" "11d155e56c86afbfbe25179a685e59d2d1ffa6cb" "20261028151212.634":
+  entity xor_gate at 1( 0) + 0 on 800;
+  architecture behavioral of xor_gate at 12( 186) + 0 on 801;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\multiplexor\tb_multi.vhd" "05be628b9928c9165920a4e1144b796eae6766dd" "20261028152203.858":
+  entity tb_mux_4to1 at 3( 38) + 0 on 854;
+  architecture sim of tb_mux_4to1 at 10( 155) + 0 on 855;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\nand\nand_gate.vhd" "3e1a952a754b901b01950ff4c4cb40bf3fc0d162" "20261028151212.775":
+  entity nand_gate at 1( 0) + 0 on 802;
+  architecture behavioral of nand_gate at 12( 188) + 0 on 803;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\decoficador\tb_decoder.vhd" "c3a355a98cdb9da4af76017045c2669fe2f47a56" "20261028152159.675":
+  entity tb_decoder_3to8 at 2( 40) + 0 on 850;
+  architecture sim of tb_decoder_3to8 at 9( 165) + 0 on 851;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\and\and_gate.vhd" "37a8a8b49662b7cbf04369b53d23553ff3e74717" "20261028151212.571":
+  entity and_gate at 2( 2) + 0 on 798;
+  architecture behavioral of and_gate at 13( 189) + 0 on 799;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\xor\tb_xor.vhd" "c067c31dd410bccf09b16fc9db83aaac1473fd44" "20261028151213.534":
+  entity tb_xor at 1( 0) + 0 on 820;
+  architecture sim of tb_xor at 7( 80) + 0 on 821;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\not\tb_not.vhd" "e3680d62a5d92f1cf04b0dad1b8137018cdc1bff" "20261028151213.629":
+  entity tb_not at 1( 0) + 0 on 822;
+  architecture sim of tb_not at 7( 80) + 0 on 823;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\and\tb_and.vhd" "c23f030539384e960246e3ed7efd3c7c171b2c40" "20261028151213.426":
+  entity tb_and at 1( 0) + 0 on 818;
+  architecture sim of tb_and at 7( 80) + 0 on 819;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\Proyecto_Final\bcd_7seg.vhd" "a2cfe61f8c03856088bdba68ef320d37a00e3688" "20261028152356.689":
+  entity bcd_7seg at 2( 58) + 0 on 864;
+  architecture behavioral of bcd_7seg at 10( 247) + 0 on 865;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_4\Contador_Sincrono_Modulo10\tb_counter_mod10.vhd" "cfe3fddff50b92bb5d0d0c6c088861f49f970706" "20261028152711.233":
+  entity tb_counter_mod10 at 2( 39) + 0 on 874;
+  architecture sim of tb_counter_mod10 at 8( 139) + 0 on 875;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_3\Registro_de_Desplazamiento4bits\shift_reg_4bit.vhd" "eeb64daf643abb7c1b8d25e18c965fcd1504b6fd" "20261028152740.261":
+  entity shift_reg_4bit at 2( 44) + 0 on 880;
+  architecture behavioral of shift_reg_4bit at 12( 316) + 0 on 881;

@@ -1,0 +1,7 @@
+v 4
+file . "tb_counter_mod10.vhd" "cfe3fddff50b92bb5d0d0c6c088861f49f970706" "20261028124418.027":
+  entity tb_counter_mod10 at 2( 39) + 0 on 13;
+  architecture sim of tb_counter_mod10 at 8( 139) + 0 on 14;
+file . "counter_mod10.vhd" "b72ed38383d6d936ba931a95c2e9eab5290ca9d1" "20261028124418.013":
+  entity counter_mod10 at 2( 40) + 0 on 11;
+  architecture behavioral of counter_mod10 at 12( 281) + 0 on 12;
