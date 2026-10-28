@@ -35,9 +35,9 @@ file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase
 file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\multiplexor\multi_gate.vhd" "92cff19abb6bf0bce7a39b8b3ed41fd7f18490fa" "20261028195036.046":
   entity mux_4to1 at 2( 26) + 0 on 950;
   architecture behavioral of mux_4to1 at 11( 236) + 0 on 951;
-file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\Proyecto_Final\counter_mod6.vhd" "7b0b72a3d4215203139e57ac2d48422a8af1d3a3" "20261028224816.303":
-  entity counter_mod6 at 1( 0) + 0 on 1075;
-  architecture behavioral of counter_mod6 at 14( 285) + 0 on 1076;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\Proyecto_Final\counter_mod6.vhd" "beceeb44a40fb8dd20c2529226a7a315623cd803" "20261028231221.300":
+  entity counter_mod6 at 1( 0) + 0 on 1109;
+  architecture behavioral of counter_mod6 at 14( 285) + 0 on 1110;
 file / "c:\Users\HP\Downloads\VHDL\lib\ghdl\src\ieee2008\numeric_std.vhdl" "1b825388feced75f599374fc3b8035019538bd4a" "20261026131755.364":
   package numeric_std at 65( 3452) + 0 on 532 body;
 file / "c:\Users\HP\Downloads\VHDL\lib\ghdl\src\ieee2008\std_logic_1164.vhdl" "7916134ed732ba36c91fe3327a3e59da32593a90" "20261028204212.677":
@@ -51,9 +51,9 @@ file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase
 file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\decoficador\decoder_3to8.vhd" "b278fe10bd2f5f2a569ef8815ec55a57f9bce818" "20261028195037.872":
   entity decoder_3to8 at 2( 30) + 0 on 990;
   architecture behavioral of decoder_3to8 at 12( 221) + 0 on 991;
-file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\BCD_7_segmentos\tb_bcd.vhd" "1fb4d69275030ffbeca02cb07459e7f5241dfe54" "20261028224456.314":
-  entity tb_bcd_7seg at 2( 2) + 0 on 1073;
-  architecture sim of tb_bcd_7seg at 9( 119) + 0 on 1074;
+file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_2\BCD_7_segmentos\tb_bcd.vhd" "b590c010d769e9a429768039a618c91cb91c835b" "20261028231221.223":
+  entity tb_bcd_7seg at 1( 0) + 0 on 1107;
+  architecture sim of tb_bcd_7seg at 7( 115) + 0 on 1108;
 file / "c:\Users\HP\Downloads\Trabajos_VHD\Arquitectura_de_Ordenadores\APE1_Fase_1\or\tb_or.vhd" "2a21a7eb6f17ed0a3484f9a2373144c75fe0e352" "20261028195038.262":
   entity tb_or at 1( 0) + 0 on 1000;
   architecture sim of tb_or at 7( 78) + 0 on 1001;
