@@ -9,7 +9,7 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffffff&fontSize=42&height=80&text=ESTRUCTURA%20DE%20DATOS&fontAlignY=55" alt="Estructura de Datos" />
+<img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffffff&fontSize=42&height=80&text=ARQUITECTURA%20DE%20ORDENADORES&fontAlignY=55" alt="Estructura de Datos" />
 
 <br>
 
